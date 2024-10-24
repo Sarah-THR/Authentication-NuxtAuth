@@ -73,3 +73,13 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## .env file
+
+Create a .env file in your Nuxt project : 
+ORIGIN=http://localhost:3000
+NUXT_SECRET=<a-better-secret>,
+AZURE_AD_CLIENT_ID=<your-azure-ad-client-id>
+AZURE_AD_CLIENT_SECRET=<your-azure-client-secret>
+AZURE_AD_TENANT_ID=<your-azure-ad-tenant-id>
+AZURE_AD_SCOPES=<your-azure-ad-app-scopes>
